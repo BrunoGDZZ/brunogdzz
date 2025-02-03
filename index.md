@@ -1,4 +1,3 @@
-# Bruno Garbuio De Souza Portfolio  
 
 Hi, I'm Bruno Garbuio De Souza, a second-year student studying computer science at The University of Texas at Arlington. 
 

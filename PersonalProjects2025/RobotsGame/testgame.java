@@ -1,4 +1,4 @@
-package github.PersonalProjects2025.RobotsGame;
+package github.brunogdzz.PersonalProjects2025.RobotsGame;
 import java.util.Scanner;
 import java.util.Random;
 

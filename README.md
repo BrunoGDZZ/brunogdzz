@@ -39,6 +39,5 @@ Highly motivated and results-oriented undergraduate Computer Science student see
 
 
 ## Contact
-- **Email**: your.email@example.com  
-- **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)  
+- [EMAIL](to:23bdesouza@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/bruno-garbuio-de-souza-48610524a/))   

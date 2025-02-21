@@ -27,12 +27,12 @@ Highly motivated and results-oriented undergraduate Computer Science student see
 ### Computer Science Student - University of Texas at Arlington *(August 2023 – Present)*
 - Currently studying Computer Science 
 - Successfully completed:
--   CSE 1310 INTRO COMPUTERS & PROGRAMMING
--   CSE 1106 INTRO TO COMP SCI & ENGR
--   CSE 1320 INTERMEDIATE PROGRAMMING 
+  -   CSE 1310 INTRO COMPUTERS & PROGRAMMING
+  -   CSE 1106 INTRO TO COMP SCI & ENGR
+  -   CSE 1320 INTERMEDIATE PROGRAMMING 
 - Currently Enrolled in:
--   CSE 1325 OBJECT-ORIENTED PROGRAMMING
--   CSE 2312 CMPTR ORG & ASSEMBLY LANG PROG 
+  -   CSE 1325 OBJECT-ORIENTED PROGRAMMING
+  -   CSE 2312 CMPTR ORG & ASSEMBLY LANG PROG 
 - Completed Freshman year with a 3.4 GPA
 - Relevant Coursework: Data Structures, Algorithms, Software Engineering, Operating Systems  
 

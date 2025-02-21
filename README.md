@@ -39,5 +39,5 @@ Highly motivated and results-oriented undergraduate Computer Science student see
 
 
 ## Contact
-- [EMAIL](to:23bdesouza@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/bruno-garbuio-de-souza-48610524a/))   
+- **Email**: 23bdesouza@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/bruno-garbuio-de-souza-48610524a/)

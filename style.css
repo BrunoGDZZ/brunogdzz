@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    background-color: #181818;
+    background-color: #000000; /* Black background */
     color: #ffffff;
     margin: 0;
     padding: 0;
@@ -21,12 +21,12 @@ p {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: #1e90ff;
+    color: #FF6347; /* Red/Orange color for links */
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #ff5733;
+    color: #FF4500; /* Darker orange on hover */
 }
 
 img {
@@ -46,7 +46,7 @@ img {
     display: flex;
     justify-content: center;
     padding: 0;
-    background: #222222;
+    background: #222222; /* Dark gray background for tabs */
     margin: 0;
     border-bottom: 2px solid #444;
 }
@@ -58,21 +58,21 @@ img {
 .tabs a {
     display: block;
     padding: 10px 20px;
-    color: white;
-    background: #444;
+    color: #ffffff;
+    background: #333333; /* Darker background for tabs */
     border-radius: 5px 5px 0 0;
     transition: background 0.3s;
     margin-bottom: -2px;
 }
 
 .tabs a:hover, .tabs a.active {
-    background: #1e90ff;
+    background: #FF6347; /* Red/Orange color when hovered or active */
 }
 
 .tab-content {
     display: none;
     padding: 20px;
-    background: #222222;
+    background: #222222; /* Dark background for tab content */
     border-radius: 0 0 5px 5px;
 }
 
@@ -96,7 +96,7 @@ img {
 }
 
 button {
-    background: #ff5733;
+    background: #FF6347; /* Red/Orange for button background */
     border: none;
     color: white;
     padding: 10px 20px;
@@ -114,13 +114,13 @@ button:hover {
 footer {
     margin-top: 30px;
     padding: 15px;
-    background: #1e1e1e;
+    background: #1e1e1e; /* Dark footer background */
     color: #ffffff;
     text-align: center;
     font-size: 14px;
 }
 
 footer a {
-    color: #1e90ff;
+    color: #FF6347; /* Red/Orange for footer links */
     text-decoration: none;
 }

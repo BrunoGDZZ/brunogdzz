@@ -1,14 +1,12 @@
-/* Body background with gradient from red to orange */
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    background: linear-gradient(to right, #FF6347, #FF4500); /* Gradient from red to orange */
+    background-color: #000000;
     color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
-/* Adjust the rest of the content styles */
 h1, h2 {
     color: #ffffff;
     margin-top: 20px;
@@ -23,7 +21,7 @@ p {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: #ffffff;
+    color: #FF6347;
     transition: color 0.3s;
 }
 
@@ -41,6 +39,55 @@ img {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+}
+
+/* Sidebar style */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.sidebar .tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar .tabs a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar .tabs a:hover, .sidebar .tabs a.active {
+    background-color: #FF6347;
+}
+
+/* Main content */
+#main {
+    margin-left: 0;
+    padding: 15px;
 }
 
 .tabs {
@@ -68,7 +115,7 @@ img {
 }
 
 .tabs a:hover, .tabs a.active {
-    background: #FF6347; /* Red/Orange color when hovered or active */
+    background: #FF6347;
 }
 
 .tab-content {

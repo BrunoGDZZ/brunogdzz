@@ -5,18 +5,18 @@
 
 # 👋 Hi, I'm Bruno Garbuio De Souza  
 =======
-<img src="IMG_0615.jpg" alt="My Photo" width="200" style="border-radius: 0; float: right; margin-left: 20px;">
-Hi, I'm Bruno Garbuio De Souza, a second-year student studying computer science at The University of Texas at Arlington. 
+Hi, I'm Bruno Garbuio De Souza, a second-year student studying computer science at the University of Texas at Arlington. Intended Graduation Year of 2027
 
 🚀 **Aspiring Software Engineer** | 🎓 *Computer Science Student at The University of Texas at Arlington*  
 
-I am passionate about **software development, algorithms, and building scalable applications**. This website showcases my **projects, experience, and journey in tech**.  
+I am passionate about **software development, algorithms, and building scalable applications** with a strong desire to learn and grow within a professional environment. I am eager to contribute and add value to an organization by building a successful career in the technology industry.
+This website showcases my **projects, experience, and journey in tech**.  
 
 ---
 
 ## 🏗 Projects  
 
-### 📌 [Robots Game]([https://github.com/yourusername/project1](https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/RobotsGame))  
+### 📌 [Robots Game]([(https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/RobotsGame)])  
 **Short Description:** Redid the classic Robots game from years back using Java Object Oriented Key concepts and implemented a Swift UI version.  
 🔹 **Key Features:**  
 - ✅ Swift UI (In Progress, 90% complete) 

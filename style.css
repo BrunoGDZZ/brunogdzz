@@ -1,7 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    background-color: #181818;
+    background-color: #000000;
     color: #ffffff;
     margin: 0;
     padding: 0;
@@ -21,12 +21,12 @@ p {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: #1e90ff;
+    color: #FF6347;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #ff5733;
+    color: #FF4500;
 }
 
 img {
@@ -39,6 +39,55 @@ img {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+}
+
+/* Sidebar style */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    color: #fff;
+    background: none;
+    border: none;
+}
+
+.sidebar .tabs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar .tabs a {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar .tabs a:hover, .sidebar .tabs a.active {
+    background-color: #FF6347;
+}
+
+/* Main content */
+#main {
+    margin-left: 0;
+    padding: 15px;
 }
 
 .tabs {
@@ -58,15 +107,15 @@ img {
 .tabs a {
     display: block;
     padding: 10px 20px;
-    color: white;
-    background: #444;
+    color: #ffffff;
+    background: #333333;
     border-radius: 5px 5px 0 0;
     transition: background 0.3s;
     margin-bottom: -2px;
 }
 
 .tabs a:hover, .tabs a.active {
-    background: #1e90ff;
+    background: #FF6347;
 }
 
 .tab-content {
@@ -96,7 +145,7 @@ img {
 }
 
 button {
-    background: #ff5733;
+    background: #FF6347;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -121,6 +170,6 @@ footer {
 }
 
 footer a {
-    color: #1e90ff;
+    color: #FF6347;
     text-decoration: none;
 }

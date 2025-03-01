@@ -4,6 +4,9 @@
      style="border-radius: 50%; display: block; margin: 0 auto; box-shadow: 0px 4px 10px rgba(0,0,0,0.3);">
 
 # 👋 Hi, I'm Bruno Garbuio De Souza  
+=======
+<img src="IMG_0615.jpg" alt="My Photo" width="200" style="border-radius: 0; float: right; margin-left: 20px;">
+Hi, I'm Bruno Garbuio De Souza, a second-year student studying computer science at The University of Texas at Arlington. 
 
 🚀 **Aspiring Software Engineer** | 🎓 *Computer Science Student at The University of Texas at Arlington*  
 

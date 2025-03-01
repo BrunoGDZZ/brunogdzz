@@ -1,47 +1,43 @@
-<header>
+# Bruno Garbuio De Souza
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+## Portfolio & Github Personal Repository
 
-# GitHub Pages
+Welcome to my GitHub Portfolio! Here, you'll find my projects, skills, and experience in software development.
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+## About Me
+Aspiring Software Engineer | Computer Science Student at The University of Texas at Arlington | Graduating by May 2027
 
-</header>
+Highly motivated and results-oriented undergraduate Computer Science student seeking challenging opportunities. Driven and inquisitive  student with a strong desire to learn and grow within a professional environment, eager to contribute and add value  to an organization building a successful career in the technology industry.
 
-<!--
-  <<< Author notes: Step 5 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
 
-## Step 5: Merge your pull request
+## Skills & Technologies
+- **Programming Languages**: C, C++ [IN PROGRESS], Java[IN PROGRESS], Assembly[IN PROGRESS]
+- **Data Structures & Algorithms**: Linked Lists, Stacks, Queues, Trees, Graphs
+- **Software Development**: Object-Oriented Programming, Agile Methodologies, Jira Software
+- **Version Control**: Git, GitHub
+- **Databases**: [LEARNING]
 
-_Nice work, friend :heart:! People will be reading your blog in no time!_
+## Projects
+### [Robots Game Recreation with Swing](https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/RobotsGame)
+**Description**: Recreated the old Robots game both text based and implemented Swing for a sort of UI.  
+- Implemented Swing UI  
 
-You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glossary#merge) your pull request!
 
-### :keyboard: Activity: Merge your changes
+## Education
+### Computer Science Student - University of Texas at Arlington *(August 2023 – Present)*
+- Currently studying Computer Science 
+- Successfully completed:
+  -   CSE 1310 INTRO COMPUTERS & PROGRAMMING
+  -   CSE 1106 INTRO TO COMP SCI & ENGR
+  -   CSE 1320 INTERMEDIATE PROGRAMMING 
+- Currently Enrolled in:
+  -   CSE 1325 OBJECT-ORIENTED PROGRAMMING
+  -   CSE 2312 CMPTR ORG & ASSEMBLY LANG PROG 
+- Completed Freshman year with a 3.4 GPA
+- Relevant Coursework: Data Structures, Algorithms, Software Engineering, Operating Systems  
 
-1. Merge your changes from `my-pages` into `main`. If you created the pull request in step 2, just open that PR and click on **Merge pull request**. If you did not create the pull request earlier, you can do it now by following the instructions in [step 2](/.github/steps/2-configure-your-site.md).
-1. (optional) Delete the branch `my-pages`.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
-<footer>
 
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+## Contact
+- **Email**: 23bdesouza@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/bruno-garbuio-de-souza-48610524a/)

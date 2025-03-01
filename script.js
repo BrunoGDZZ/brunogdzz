@@ -24,15 +24,3 @@ document.addEventListener("DOMContentLoaded", function () {
         contents[0].classList.add("active");
     }
 });
-
-// Function to open the sidebar
-function openNav() {
-    document.getElementById("mySidebar").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-}
-
-// Function to close the sidebar
-function closeNav() {
-    document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-}

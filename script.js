@@ -7,10 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
             event.preventDefault();
             const target = this.getAttribute("data-tab");
 
-            
-=======
-
-
             tabs.forEach(t => t.classList.remove("active"));
             this.classList.add("active");
 
@@ -22,12 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-
     // Ensure first tab is active on load
     if (tabs.length > 0) {
         tabs[0].classList.add("active");
         contents[0].classList.add("active");
     }
-=======
-
 });

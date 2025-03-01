@@ -1,12 +1,14 @@
+/* Body background with gradient from red to orange */
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    background-color: #000000; /* Black background */
+    background: linear-gradient(to right, #FF6347, #FF4500); /* Gradient from red to orange */
     color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
+/* Adjust the rest of the content styles */
 h1, h2 {
     color: #ffffff;
     margin-top: 20px;
@@ -21,12 +23,12 @@ p {
 a {
     text-decoration: none;
     font-weight: bold;
-    color: #FF6347; /* Red/Orange color for links */
+    color: #ffffff;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #FF4500; /* Darker orange on hover */
+    color: #FF4500;
 }
 
 img {
@@ -46,7 +48,7 @@ img {
     display: flex;
     justify-content: center;
     padding: 0;
-    background: #222222; /* Dark gray background for tabs */
+    background: #222222;
     margin: 0;
     border-bottom: 2px solid #444;
 }
@@ -59,7 +61,7 @@ img {
     display: block;
     padding: 10px 20px;
     color: #ffffff;
-    background: #333333; /* Darker background for tabs */
+    background: #333333;
     border-radius: 5px 5px 0 0;
     transition: background 0.3s;
     margin-bottom: -2px;
@@ -72,7 +74,7 @@ img {
 .tab-content {
     display: none;
     padding: 20px;
-    background: #222222; /* Dark background for tab content */
+    background: #222222;
     border-radius: 0 0 5px 5px;
 }
 
@@ -96,7 +98,7 @@ img {
 }
 
 button {
-    background: #FF6347; /* Red/Orange for button background */
+    background: #FF6347;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -114,13 +116,13 @@ button:hover {
 footer {
     margin-top: 30px;
     padding: 15px;
-    background: #1e1e1e; /* Dark footer background */
+    background: #1e1e1e;
     color: #ffffff;
     text-align: center;
     font-size: 14px;
 }
 
 footer a {
-    color: #FF6347; /* Red/Orange for footer links */
+    color: #FF6347;
     text-decoration: none;
 }

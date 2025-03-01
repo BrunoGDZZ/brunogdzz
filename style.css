@@ -40,17 +40,56 @@ img {
     padding: 20px;
 }
 
-.project-card {
+.tabs {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
     background: #222222;
-    padding: 15px;
-    margin: 15px 0;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(255,255,255,0.1);
-    transition: transform 0.3s;
+    margin: 0;
 }
 
-.project-card:hover {
-    transform: scale(1.05);
+.tabs li {
+    margin: 0;
+}
+
+.tabs a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    background: #444;
+    border-radius: 5px 5px 0 0;
+    transition: background 0.3s;
+}
+
+.tabs a:hover, .tabs a.active {
+    background: #1e90ff;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background: #222222;
+    border-radius: 0 0 5px 5px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255,255,255,0.1);
+    width: 80%;
+    margin-bottom: 15px;
 }
 
 button {
@@ -71,11 +110,14 @@ button:hover {
 
 footer {
     margin-top: 30px;
-    padding: 10px;
-    background: #222222;
+    padding: 15px;
+    background: #1e1e1e;
     color: #ffffff;
+    text-align: center;
+    font-size: 14px;
 }
 
-footer p {
-    color: #bbbbbb;
+footer a {
+    color: #1e90ff;
+    text-decoration: none;
 }

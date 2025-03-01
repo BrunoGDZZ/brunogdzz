@@ -1,3 +1,5 @@
+include: ["style.css"]
+
 theme: jekyll-theme-cayman
 
 title: "Bruno Garbuio De Souza | Portfolio"

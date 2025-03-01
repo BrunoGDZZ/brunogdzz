@@ -1,14 +1,14 @@
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
-    background-color: #121212;
+    background-color: #181818;
     color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
 h1, h2 {
-    color: #1e90ff;
+    color: #ffffff;
 }
 
 p {
@@ -41,7 +41,7 @@ img {
 }
 
 .project-card {
-    background: #1e1e1e;
+    background: #222222;
     padding: 15px;
     margin: 15px 0;
     border-radius: 10px;
@@ -54,7 +54,7 @@ img {
 }
 
 button {
-    background: linear-gradient(45deg, #1e90ff, #ff5733);
+    background: #ff5733;
     border: none;
     color: white;
     padding: 10px 20px;
@@ -72,6 +72,10 @@ button:hover {
 footer {
     margin-top: 30px;
     padding: 10px;
-    background: #1e90ff;
-    color: white;
+    background: #222222;
+    color: #ffffff;
+}
+
+footer p {
+    color: #bbbbbb;
 }

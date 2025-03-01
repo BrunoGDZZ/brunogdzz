@@ -25,24 +25,23 @@ layout: default
 <!-- Projects Section -->
 <div id="projects" class="tab-content">
     <h2>Projects</h2>
-    <div class="project">
-        <h3>Project 1</h3>
-        <p>Short description of the project.</p>
-        <a href="#">View Project</a>
-    </div>
-    <div class="project">
-        <h3>Project 2</h3>
-        <p>Short description of the project.</p>
-        <a href="#">View Project</a>
+    <div class="projects-container">
+        <div class="project">
+            <h3>Robots Recreation</h3>
+            <p>Recreated the Classic Robots game using Java OOP, later equipping it with SwiftUI.</p>
+            <a href="https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/RobotsGame" target="_blank">View Project</a>
+        </div>
     </div>
 </div>
+
+    
 
 <!-- Contact Section -->
 <div id="contact" class="tab-content">
     <h2>Contact Me</h2>
-    <p>Email: your.email@example.com</p>
-    <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
-    <p>GitHub: <a href="#">github.com/yourusername</a></p>
+    <p>Email: 23bdesouza@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/bruno-garbuio-de-souza" target="_blank"></a></p>
+<p>GitHub: <a href="https://github.com/brunogdzz" target="_blank"></a></p>
 </div>
 
 <footer>

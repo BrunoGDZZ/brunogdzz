@@ -34,14 +34,12 @@ layout: default
     </div>
 </div>
 
-    
-
 <!-- Contact Section -->
 <div id="contact" class="tab-content">
     <h2>Contact Me</h2>
     <p>Email: 23bdesouza@gmail.com</p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/bruno-garbuio-de-souza" target="_blank"></a></p>
-<p>GitHub: <a href="https://github.com/brunogdzz" target="_blank"></a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/bruno-garbuio-de-souza" target="_blank">View Profile</a></p>
+    <p>GitHub: <a href="https://github.com/brunogdzz" target="_blank">View Profile</a></p>
 </div>
 
 <footer>

@@ -1,13 +1,18 @@
 include: ["style.css", "script.js"]
 
-theme: jekyll-theme-cayman
-
 title: "Bruno Garbuio De Souza | Portfolio"
 description: "Showcasing my projects, experience, and journey in software development."
 
-# Add a favicon (optional)
+# Theme selection
+theme: jekyll-theme-leap-day
+
+# Favicon (optional)
 favicon: /assets/images/icons8-tech-16.ico
 
+# Customize appearance (optional)
+show_downloads: false
+
+# Additional customizations for the theme (if any)
 # Customize colors (optional)
-show_downloads: false  
+# You can customize things like the link colors or header colors here, but refer to the theme docs for options.
 

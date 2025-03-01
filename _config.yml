@@ -4,8 +4,7 @@ title: "Bruno Garbuio De Souza | Portfolio"
 description: "Showcasing my projects, experience, and journey in software development."
 
 # Theme selection
-theme: lanyon
-
+theme: minimal-mistakes-jekyll
 
 # Favicon (optional)
 favicon: /assets/images/icons8-tech-16.ico
@@ -13,7 +12,41 @@ favicon: /assets/images/icons8-tech-16.ico
 # Customize appearance (optional)
 show_downloads: false
 
-# Additional customizations for the theme (if any)
-# Customize colors (optional)
-# You can customize things like the link colors or header colors here, but refer to the theme docs for options.
+# Author Information
+author:
+  name: "Bruno Garbuio De Souza"
+  email: "23bdesouza@gmail.com"
 
+# Social Media Links
+social_links:
+  linkedin: "https://www.linkedin.com/in/bruno-garbuio-de-souza"
+  github: "https://github.com/brunogdzz"
+  email: "23bdesouza@gmail.com"
+
+# Logo (optional)
+logo: /assets/images/icons8-tech-16.ico
+
+# Show Archives
+show_archives: true
+
+# Pagination for Posts
+paginate: 5
+
+# Enable/Disable Search
+enable_search: true
+
+# Enable/Disable Categories
+show_categories: true
+
+# Customize Colors (optional)
+colors:
+  primary: "#FF6347" # Red/orange color for accents
+  secondary: "#333333" # Dark background for content
+  background: "#FFFFFF" # Light background
+
+
+
+# Exclude Pages from Navigation (optional)
+exclude:
+  - "README.md"
+  - "LICENSE.md"

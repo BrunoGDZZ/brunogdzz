@@ -4,7 +4,8 @@ title: "Bruno Garbuio De Souza | Portfolio"
 description: "Showcasing my projects, experience, and journey in software development."
 
 # Theme selection
-theme: jekyll-theme-leap-day
+theme: lanyon
+
 
 # Favicon (optional)
 favicon: /assets/images/icons8-tech-16.ico

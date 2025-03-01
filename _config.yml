@@ -1,4 +1,4 @@
-include: ["style.css"]
+include: ["style.css", "script.js"]
 
 theme: jekyll-theme-cayman
 

@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+
 <img src="IMG_0615.jpg" alt="Bruno Garbuio De Souza" width="200" 
      style="border-radius: 50%; display: block; margin: 0 auto; box-shadow: 0px 4px 10px rgba(0,0,0,0.3);">
 

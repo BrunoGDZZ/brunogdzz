@@ -4,8 +4,7 @@ title: "Bruno Garbuio De Souza | Portfolio"
 description: "Showcasing my projects, experience, and journey in software development."
 
 # Theme selection
-theme: jekyll-theme-cayman
-
+theme: minimal-mistakes-jekyll
 
 # Favicon (optional)
 favicon: /assets/images/icons8-tech-16.ico
@@ -27,10 +26,10 @@ social_links:
 # Logo (optional)
 logo: /assets/images/icons8-tech-16.ico
 
-# Show Archives
+# Show Archives (optional)
 show_archives: true
 
-# Pagination for Posts
+# Pagination for Posts (optional)
 paginate: 5
 
 # Enable/Disable Search
@@ -44,10 +43,6 @@ colors:
   primary: "#FF6347" # Red/orange color for accents
   secondary: "#333333" # Dark background for content
   background: "#FFFFFF" # Light background
-
-  
-
-
 
 # Exclude Pages from Navigation (optional)
 exclude:

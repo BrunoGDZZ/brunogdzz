@@ -1,12 +1,18 @@
+/* Apply smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body and General Styling */
 body {
-    font-family: 'Arial', sans-serif;
-    text-align: center;
-    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
     color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
+/* Typography */
 h1, h2 {
     color: #ffffff;
     margin-top: 20px;
@@ -22,26 +28,29 @@ a {
     text-decoration: none;
     font-weight: bold;
     color: #FF6347;
-    transition: color 0.3s;
+    transition: color 0.3s ease;
 }
 
 a:hover {
     color: #FF4500;
+    text-decoration: underline;
 }
 
+/* Images */
 img {
     border-radius: 50%;
     box-shadow: 0px 4px 10px rgba(255,255,255,0.3);
     margin-top: 20px;
 }
 
+/* Container */
 .container {
     max-width: 800px;
     margin: auto;
     padding: 20px;
 }
 
-/* Sidebar style */
+/* Sidebar */
 .sidebar {
     height: 100%;
     width: 0;
@@ -53,6 +62,7 @@ img {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.2);
 }
 
 .sidebar .closebtn {
@@ -90,6 +100,7 @@ img {
     padding: 15px;
 }
 
+/* Tabs */
 .tabs {
     list-style: none;
     display: flex;
@@ -118,9 +129,10 @@ img {
     background: #FF6347;
 }
 
+/* Tab content */
 .tab-content {
     display: none;
-    padding: 20px;
+    padding: 30px;
     background: #222222;
     border-radius: 0 0 5px 5px;
 }
@@ -129,12 +141,16 @@ img {
     display: block;
 }
 
+/* Projects container */
 .projects-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+    margin-top: 20px;
 }
 
+/* Project box */
 .project {
     background: #222;
     padding: 15px;
@@ -144,6 +160,7 @@ img {
     margin-bottom: 15px;
 }
 
+/* Button */
 button {
     background: #FF6347;
     border: none;
@@ -152,18 +169,19 @@ button {
     font-size: 16px;
     border-radius: 8px;
     cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: all 0.3s ease-in-out;
 }
 
 button:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 4px 15px rgba(255, 87, 51, 0.5);
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(255, 87, 51, 0.3);
 }
 
+/* Footer */
 footer {
     margin-top: 30px;
     padding: 15px;
-    background: #1e1e1e;
+    background: #2c3e50;
     color: #ffffff;
     text-align: center;
     font-size: 14px;
@@ -172,4 +190,24 @@ footer {
 footer a {
     color: #FF6347;
     text-decoration: none;
+}
+
+footer a:hover {
+    color: #FF4500;
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+    .tabs {
+        flex-direction: column;
+    }
+    #main {
+        margin-left: 0;
+        padding: 10px;
+    }
 }

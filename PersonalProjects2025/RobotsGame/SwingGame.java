@@ -1,4 +1,4 @@
-package github.brunogdzz.PersonalProjects2025.RobotsGame;
+//package github.brunogdzz.PersonalProjects2025.RobotsGame;
 
 import javax.swing.*;
 import java.awt.*;

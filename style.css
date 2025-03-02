@@ -25,23 +25,25 @@ body {
 .sidebar .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
-    font-size: 36px;
+    right: 20px;  /* Move it slightly to the right */
+    font-size: 28px;  /* Smaller size for the close button */
     color: #fff;
     background: none;
     border: none;
-}
-
-.sidebar .tabs {
-    list-style: none;
     padding: 0;
-    margin: 0;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+.sidebar .closebtn:hover {
+    color: #FF6347; /* Add hover effect to close button */
+}
+
+/* Sidebar text (tabs) */
 .sidebar .tabs a {
-    padding: 20px;
+    padding: 15px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;  /* Smaller size for sidebar text */
     color: #ffffff;
     display: block;
     transition: 0.3s;
@@ -49,7 +51,7 @@ body {
 }
 
 .sidebar .tabs a:hover, .sidebar .tabs a.active {
-    background-color: #FF6347; /* Red hover background */
+    background-color: #FF4500; /* Red hover background */
     box-shadow: 2px 0 10px rgba(255, 69, 0, 0.8); /* Red shadow on hover */
 }
 

@@ -1,19 +1,16 @@
 source "https://rubygems.org"
 
-# GitHub Pages gem (manages dependencies automatically)
+# Use GitHub Pages gem to ensure compatibility with GitHub Pages
 gem "github-pages", group: :jekyll_plugins
 
-# Minimal Mistakes theme
-gem "minimal-mistakes-jekyll"
+# Remote theme plugin to pull in Minimal Mistakes from GitHub
+gem "jekyll-remote-theme"
 
-# Additional plugins (GitHub Pages supports these)
-gem "jekyll-sitemap"       # Helps with SEO by generating a sitemap.xml
-gem "jekyll-feed"          # Generates an RSS feed
-gem "jekyll-seo-tag"       # Improves SEO with meta tags
-gem "jekyll-include-cache" # Optimizes rendering of includes
-
-# Optional: Add pagination support
+# Other Jekyll plugins (optional)
+gem "jekyll-feed"
 gem "jekyll-paginate"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
 
-# Ensure JSON compatibility
+# Ensure compatibility with the JSON gem
 gem "json", "~> 2.6.1"

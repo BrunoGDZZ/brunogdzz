@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // Tab switching logic
     const tabs = document.querySelectorAll(".tab-link");
     const contents = document.querySelectorAll(".tab-content");
 
@@ -23,4 +24,15 @@ document.addEventListener("DOMContentLoaded", function () {
         tabs[0].classList.add("active");
         contents[0].classList.add("active");
     }
+
+    // Sidebar toggle functions
+    window.openNav = function() {
+        document.getElementById("sidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    };
+
+    window.closeNav = function() {
+        document.getElementById("sidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+    };
 });

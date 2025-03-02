@@ -4,7 +4,7 @@ title: "Bruno Garbuio De Souza | Portfolio"
 description: "Showcasing my projects, experience, and journey in software development."
 
 # Theme selection
-remote_theme: "mmistakes/minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes-jekyll@v4.26.2"
 
 
 # Favicon (optional)

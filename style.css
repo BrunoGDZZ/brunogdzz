@@ -1,7 +1,7 @@
 /* Basic page styling */
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #FF6F00, #FF4500); /* Gradient from orange to red */
+    background: #000000; /* Set the background to black */
     color: #ffffff;
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111; /* Black background for sidebar */
+    background-color: #111; /* Dark black background for sidebar */
     overflow-x: hidden;
     transition: 0.4s;
     padding-top: 60px;
@@ -49,7 +49,7 @@ body {
 }
 
 .sidebar .tabs a:hover, .sidebar .tabs a.active {
-    background-color: #FF4500; /* Red hover background */
+    background-color: #FF6347; /* Red hover background */
     box-shadow: 2px 0 10px rgba(255, 69, 0, 0.8); /* Red shadow on hover */
 }
 

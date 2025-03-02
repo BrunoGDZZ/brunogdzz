@@ -26,7 +26,7 @@ layout: default
         <img src="IMG_0615.jpg" alt="Bruno Garbuio De Souza" width="200" 
              style="border-radius: 50%; display: block; margin: 20px auto; box-shadow: 0px 4px 10px rgba(255,255,255,0.3);">
         <h2>About Me</h2>
-        <p>"I'm a second-year Computer Science student at UTA who is genuinely excited about tackling new coding challenges and learning from experienced professionals. I'm looking for an opportunity to contribute my growing skills and be part of a team building technology in a real-world scenario. My intended Graduation date is May 2027; I am working on a BS in Computer Science with a passion for programming."</p>
+        <p>I'm a second-year Computer Science student at UTA who is genuinely excited about tackling new coding challenges and learning from experienced professionals. I'm looking for an opportunity to contribute my growing skills and be part of a team building technology in a real-world scenario. My intended Graduation date is May 2027; I am working on a BS in Computer Science with a passion for programming.</p>
     </div>
 
     <!-- Projects Section -->

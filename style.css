@@ -1,56 +1,13 @@
-/* Apply smooth scrolling */
-html {
-    scroll-behavior: smooth;
-}
-
-/* Body and General Styling */
+/* Basic page styling */
 body {
-    font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #2c3e50, #34495e);
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
     color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
-/* Typography */
-h1, h2 {
-    color: #ffffff;
-    margin-top: 20px;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #cccccc;
-}
-
-a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #FF6347;
-    transition: color 0.3s ease;
-}
-
-a:hover {
-    color: #FF4500;
-    text-decoration: underline;
-}
-
-/* Images */
-img {
-    border-radius: 50%;
-    box-shadow: 0px 4px 10px rgba(255,255,255,0.3);
-    margin-top: 20px;
-}
-
-/* Container */
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-}
-
-/* Sidebar */
+/* Sidebar styles */
 .sidebar {
     height: 100%;
     width: 0;
@@ -60,9 +17,9 @@ img {
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 0.3s;
     padding-top: 60px;
-    box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 .sidebar .closebtn {
@@ -95,44 +52,15 @@ img {
 }
 
 /* Main content */
-#main {
+.main-content {
     margin-left: 0;
     padding: 15px;
 }
 
-/* Tabs */
-.tabs {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    background: #222222;
-    margin: 0;
-    border-bottom: 2px solid #444;
-}
-
-.tabs li {
-    margin: 0;
-}
-
-.tabs a {
-    display: block;
-    padding: 10px 20px;
-    color: #ffffff;
-    background: #333333;
-    border-radius: 5px 5px 0 0;
-    transition: background 0.3s;
-    margin-bottom: -2px;
-}
-
-.tabs a:hover, .tabs a.active {
-    background: #FF6347;
-}
-
-/* Tab content */
+/* Tab content styles */
 .tab-content {
     display: none;
-    padding: 30px;
+    padding: 20px;
     background: #222222;
     border-radius: 0 0 5px 5px;
 }
@@ -141,43 +69,34 @@ img {
     display: block;
 }
 
-/* Projects container */
-.projects-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+h1, h2 {
+    color: #ffffff;
     margin-top: 20px;
 }
 
-/* Project box */
-.project {
-    background: #222;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(255,255,255,0.1);
-    width: 80%;
-    margin-bottom: 15px;
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #cccccc;
 }
 
-/* Button */
-button {
-    background: #FF6347;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 8px;
+/* Hamburger Icon */
+span {
+    font-size: 30px;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    color: #fff;
 }
 
-button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 10px 20px rgba(255, 87, 51, 0.3);
+/* Sidebar open/close animation */
+.sidebar.open {
+    width: 250px;
 }
 
-/* Footer */
+#main {
+    transition: margin-left 0.3s;
+    padding: 20px;
+}
+
 footer {
     margin-top: 30px;
     padding: 15px;
@@ -197,17 +116,13 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive Styles */
+/* Make the page responsive */
 @media screen and (max-width: 768px) {
     .sidebar {
         width: 100%;
-        height: auto;
     }
+
     .tabs {
         flex-direction: column;
-    }
-    #main {
-        margin-left: 0;
-        padding: 10px;
     }
 }

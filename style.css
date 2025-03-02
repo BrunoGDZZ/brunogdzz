@@ -97,6 +97,7 @@ span {
     padding: 20px;
 }
 
+/* Footer styles */
 footer {
     margin-top: 30px;
     padding: 15px;
@@ -116,6 +117,29 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* Coursework Section */
+#coursework ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#coursework li {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+#coursework strong {
+    color: #FF6347; /* Accent color for course titles */
+}
+
+#coursework h2 {
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
 /* Make the page responsive */
 @media screen and (max-width: 768px) {
     .sidebar {
@@ -124,5 +148,10 @@ footer a:hover {
 
     .tabs {
         flex-direction: column;
+    }
+
+    #main {
+        margin-left: 0;
+        padding: 10px;
     }
 }

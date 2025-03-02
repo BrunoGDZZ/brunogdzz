@@ -11,6 +11,7 @@ layout: default
     <ul class="tabs">
         <li><a href="#" class="tab-link active" data-tab="about">About</a></li>
         <li><a href="#" class="tab-link" data-tab="projects">Projects</a></li>
+        <li><a href="#" class="tab-link" data-tab="coursework">Coursework</a></li> <!-- Added Coursework tab -->
         <li><a href="#" class="tab-link" data-tab="contact">Contact</a></li>
     </ul>
 </div>
@@ -38,6 +39,18 @@ layout: default
                 <a href="https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/RobotsGame" target="_blank">View Project</a>
             </div>
         </div>
+    </div>
+
+    <!-- Coursework Section -->
+    <div id="coursework" class="tab-content">
+        <h2>Relevant Coursework</h2>
+        <ul>
+            <li><strong>Introduction to Computer Science & Engineering</strong> - University of Texas at Arlington (CSE 1106)</li>
+            <li><strong>Introduction to Computers & Programming</strong> - University of Texas at Arlington (CSE 1310)</li>
+            <li><strong>Intermediate Programming</strong> - University of Texas at Arlington (MATH 1320)</li>
+            <li><strong>Object Oriented Programming (Java and C++)</strong> - University of Texas at Arlington (CSE 1325) [CURRENTLY]</li>
+            <li><strong>Computer Organization & Assembly Language</strong> - University of Texas at Arlington (CSE 2312) [CURRENTLY]</li>
+        </ul>
     </div>
 
     <!-- Contact Section -->

@@ -10,6 +10,10 @@ favicon: /assets/images/icons8-tech-16.ico
 # Customize appearance (optional)
 show_downloads: false
 
+plugins:
+  - jekyll-seo-tag
+
+
 # Author Information
 author:
   name: "Bruno Garbuio De Souza"

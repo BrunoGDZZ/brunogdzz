@@ -45,6 +45,8 @@ colors:
   secondary: "#333333" # Dark background for content
   background: "#FFFFFF" # Light background
 
+  
+
 
 
 # Exclude Pages from Navigation (optional)

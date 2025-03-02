@@ -1,7 +1,7 @@
 /* Basic page styling */
 body {
     font-family: 'Roboto', sans-serif;
-    background: linear-gradient(135deg, #2c3e50, #34495e); /* Gradient background */
+    background: linear-gradient(135deg, #FF6F00, #FF4500); /* Gradient from orange to red */
     color: #ffffff;
     margin: 0;
     padding: 0;
@@ -15,11 +15,11 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #111; /* Black background for sidebar */
     overflow-x: hidden;
     transition: 0.4s;
     padding-top: 60px;
-    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
 .sidebar .closebtn {
@@ -49,8 +49,8 @@ body {
 }
 
 .sidebar .tabs a:hover, .sidebar .tabs a.active {
-    background-color: #FF6347; /* Highlight active tab */
-    box-shadow: 2px 0 10px rgba(255, 99, 71, 0.7);
+    background-color: #FF4500; /* Red hover background */
+    box-shadow: 2px 0 10px rgba(255, 69, 0, 0.8); /* Red shadow on hover */
 }
 
 /* Main content */
@@ -64,7 +64,7 @@ body {
 .tab-content {
     display: none;
     padding: 30px;
-    background: #222222;
+    background: #222222; /* Dark background for content */
     border-radius: 5px;
     margin-top: 20px;
 }
@@ -110,7 +110,7 @@ span {
 footer {
     margin-top: 30px;
     padding: 20px;
-    background: #2c3e50;
+    background: #2c3e50; /* Dark footer */
     color: #ffffff;
     text-align: center;
     font-size: 14px;
@@ -123,7 +123,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #FF4500;
+    color: #FF4500; /* Red hover for footer links */
     text-decoration: underline;
 }
 
@@ -142,7 +142,7 @@ footer a:hover {
 }
 
 #coursework strong {
-    color: #FF6347; /* Accent color for course titles */
+    color: #FF6347; /* Orange color for course titles */
 }
 
 #coursework h2 {
@@ -154,7 +154,7 @@ footer a:hover {
 
 /* Button styles */
 button {
-    background: #FF6347;
+    background: #FF6347; /* Orange button */
     border: none;
     color: white;
     padding: 12px 20px;

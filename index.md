@@ -7,8 +7,10 @@ layout: default
 
 <h1>Welcome to My Portfolio</h1>
 
-<!-- Sidebar Button -->
-<span onclick="openNav()">☰ Menu</span>
+<!-- Hamburger Menu Button -->
+<button class="menu-btn" onclick="openNav()">
+    &#9776; <!-- Hamburger icon (☰) -->
+</button>
 
 <!-- Sidebar -->
 <div id="mySidebar" class="sidebar">

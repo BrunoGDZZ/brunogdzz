@@ -37,14 +37,14 @@ layout: default
     <div class="projects-container">
         <div class="project">
             <h3>Robots Recreation</h3>
-            <p>Recreated the Classic Robots game using Java OOP, later equipping it with SwiftUI.</p>
-            <p class="project-date">Date: January 2025</p>
+            <p>Recreated the Classic Robots game using Java OOP, later equipping it with SwiftUI. [IN PROGRESS] </p>
+            <p class="project-date">Date: Februrary 20 2025</p>
             <a href="https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/RobotsGame" target="_blank">View Project</a>
         </div>
         <div class="project">
             <h3>Portfolio Website</h3>
-            <p>Designed and developed my personal portfolio using Jekyll and GitHub Pages.</p>
-            <p class="project-date">Date: February 2025</p>
+            <p>Designed and developed my personal portfolio using Jekyll and GitHub Pages. [IN PROGRESS] </p>
+            <p class="project-date">Date: March 2 2025</p>
             <a href="https://github.com/BrunoGDZZ/brunogdzz" target="_blank">View Website</a>
         </div>
     </div>

@@ -15,21 +15,27 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111; /* Dark black background for sidebar */
+    background-color: #111; /* Dark sidebar */
     overflow-x: hidden;
     transition: 0.4s;
-    padding-top: 60px;
+    padding-top: 50px;
     box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.7);
 }
 
 .sidebar .closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
     color: #fff;
     background: none;
     border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar .closebtn:hover {
+    color: #FF6347;
 }
 
 .sidebar .tabs {
@@ -39,9 +45,9 @@ body {
 }
 
 .sidebar .tabs a {
-    padding: 20px;
+    padding: 12px 20px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 18px;
     color: #ffffff;
     display: block;
     transition: 0.3s;
@@ -49,8 +55,8 @@ body {
 }
 
 .sidebar .tabs a:hover, .sidebar .tabs a.active {
-    background-color: #FF6347; /* Red hover background */
-    box-shadow: 2px 0 10px rgba(255, 69, 0, 0.8); /* Red shadow on hover */
+    background-color: #FF4500;
+    box-shadow: 2px 0 10px rgba(255, 69, 0, 0.8);
 }
 
 /* Main content */
@@ -64,7 +70,7 @@ body {
 .tab-content {
     display: none;
     padding: 30px;
-    background: #222222; /* Dark background for content */
+    background: #222222;
     border-radius: 5px;
     margin-top: 20px;
 }
@@ -89,28 +95,65 @@ h2 {
     font-size: 28px;
 }
 
-/* Hamburger Icon */
-span {
-    font-size: 30px;
-    cursor: pointer;
-    color: #fff;
-}
-
-/* Sidebar open/close animation */
-.sidebar.open {
-    width: 250px;
-}
-
-#main {
-    transition: margin-left 0.4s;
+/* Projects Section - Grid Layout */
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
     padding: 20px;
+    justify-items: center;
 }
 
-/* Footer styles */
+/* Individual Project Card */
+.project {
+    background: #111;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(255, 99, 71, 0.2);
+    width: 100%;
+    max-width: 350px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(255, 99, 71, 0.5);
+}
+
+.project h3 {
+    color: #FF6347;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #FF4500;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.project a:hover {
+    background: #FF6347;
+}
+
+/* Footer */
 footer {
     margin-top: 30px;
     padding: 20px;
-    background: #2c3e50; /* Dark footer */
+    background: #111;
     color: #ffffff;
     text-align: center;
     font-size: 14px;
@@ -123,55 +166,11 @@ footer a {
 }
 
 footer a:hover {
-    color: #FF4500; /* Red hover for footer links */
+    color: #FF4500;
     text-decoration: underline;
 }
 
-/* Coursework Section */
-#coursework ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
-}
-
-#coursework li {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #cccccc;
-    margin-bottom: 10px;
-}
-
-#coursework strong {
-    color: #FF6347; /* Orange color for course titles */
-}
-
-#coursework h2 {
-    font-size: 28px;
-    color: #ffffff;
-    margin-bottom: 20px;
-    font-weight: 600;
-}
-
-/* Button styles */
-button {
-    background: #FF6347; /* Orange button */
-    border: none;
-    color: white;
-    padding: 12px 20px;
-    font-size: 16px;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-button:hover {
-    transform: translateY(-4px);
-    box-shadow: 0px 4px 15px rgba(255, 87, 51, 0.5);
-}
-
-/* Make the page responsive */
+/* Responsive */
 @media screen and (max-width: 768px) {
     .sidebar {
         width: 100%;

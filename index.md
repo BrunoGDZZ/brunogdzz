@@ -28,7 +28,7 @@ layout: default
     <img src="IMG_0615.jpg" alt="Bruno Garbuio De Souza" width="200" 
          style="border-radius: 50%; display: block; margin: 20px auto;">
     <h2>About Me</h2>
-    <p>I'm a Computer Science student at UTA who is genuinely excited about tackling new coding challenges and learning from experienced professionals in real-world environments. I'm looking for an opportunity to contribute my growing skills and be part of a team that's building innovative technology. This is my portfolio where I will be uploading side projects of mine and ideas i've been working on. </p>
+    <p>I'm a Computer Science student at UTA who is genuinely excited about tackling new coding challenges and learning from experienced professionals in real-world environments. I'm looking for an opportunity to contribute my growing skills and be part of a team that's building innovative technology. This is my portfolio where I will be uploading side projects of mine and ideas I've been working on. </p>
 </div>
 
 <!-- Projects Section -->
@@ -38,11 +38,13 @@ layout: default
         <div class="project">
             <h3>Robots Recreation</h3>
             <p>Recreated the Classic Robots game using Java OOP, later equipping it with SwiftUI.</p>
+            <p class="project-date">Date: January 2025</p>
             <a href="https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/RobotsGame" target="_blank">View Project</a>
         </div>
         <div class="project">
             <h3>Portfolio Website</h3>
             <p>Designed and developed my personal portfolio using Jekyll and GitHub Pages.</p>
+            <p class="project-date">Date: February 2025</p>
             <a href="https://github.com/BrunoGDZZ/brunogdzz" target="_blank">View Website</a>
         </div>
     </div>
@@ -65,6 +67,7 @@ layout: default
     <h2>Contact Me</h2>
     <p>Email: 23bdesouza@gmail.com</p>
     <p>GitHub: <a href="https://github.com/brunogdzz" target="_blank">View Profile</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/bruno-garbuio-de-souza" target="_blank">View Profile</a></p>
 </div>
 
 <footer>

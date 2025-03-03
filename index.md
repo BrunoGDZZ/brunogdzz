@@ -52,8 +52,11 @@ layout: default
 <div id="coursework" class="tab-content">
     <h2>Relevant Coursework</h2>
     <ul>
-        <li><strong>Data Structures & Algorithms</strong> - University of Texas at Arlington</li>
-        <li><strong>Operating Systems</strong> - University of Texas at Arlington</li>
+        <li><strong>Introduction to Computer Science & Engineering</strong> - University of Texas at Arlington (CSE 1106)</li>
+        <li><strong>Introduction to Computers & Programming</strong> - University of Texas at Arlington (CSE 1310)</li>
+        <li><strong>Intermediate Programming</strong> - University of Texas at Arlington (CSE 1320)</li>
+        <li><strong>Object Oriented Programming (Java and C++)</strong> - University of Texas at Arlington (CSE 1325) [CURRENTLY]</li>
+        <li><strong>Computer Organization & Assembly Language</strong> - University of Texas at Arlington (CSE 2312) [CURRENTLY]</li>
     </ul>
 </div>
 

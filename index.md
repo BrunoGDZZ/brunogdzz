@@ -7,7 +7,7 @@ layout: default
 
 <h1>Welcome to My Portfolio</h1>
 
-<!-- Sidebar Menu Button -->
+<!-- Sidebar Button -->
 <span onclick="openNav()">☰ Menu</span>
 
 <!-- Sidebar -->

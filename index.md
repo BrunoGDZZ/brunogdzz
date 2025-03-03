@@ -43,7 +43,7 @@ layout: default
         <div class="project">
             <h3>Portfolio Website</h3>
             <p>Designed and developed my personal portfolio using Jekyll and GitHub Pages.</p>
-            <a href="https://brunogdzz.github.io" target="_blank">View Website</a>
+            <a href="https://github.com/BrunoGDZZ/brunogdzz" target="_blank">View Website</a>
         </div>
     </div>
 </div>

@@ -5,7 +5,7 @@ layout: default
 <link rel="stylesheet" href="style.css">
 <script src="script.js" defer></script>
 
-<h1>Welcome to My Portfolio</h1>
+<h1>Bruno Garbuio De Souza | UTA Computer Science INT 2027</h1>
 
 <!-- Hamburger Menu Button -->
 <button class="menu-btn" onclick="openNav()">
@@ -28,7 +28,7 @@ layout: default
     <img src="IMG_0615.jpg" alt="Bruno Garbuio De Souza" width="200" 
          style="border-radius: 50%; display: block; margin: 20px auto;">
     <h2>About Me</h2>
-    <p>Highly motivated and results-oriented Computer Science student passionate about technology, software development, and problem-solving.</p>
+    <p>I'm a Computer Science student at UTA who is genuinely excited about tackling new coding challenges and learning from experienced professionals in real-world environments. I'm looking for an opportunity to contribute my growing skills and be part of a team that's building innovative technology. This is my portfolio where I will be uploading side projects of mine and ideas i've been working on. </p>
 </div>
 
 <!-- Projects Section -->
@@ -52,8 +52,11 @@ layout: default
 <div id="coursework" class="tab-content">
     <h2>Relevant Coursework</h2>
     <ul>
-        <li><strong>Data Structures & Algorithms</strong> - University of Texas at Arlington</li>
-        <li><strong>Operating Systems</strong> - University of Texas at Arlington</li>
+        <li><strong>Introduction to Computer Science & Engineering</strong> - University of Texas at Arlington (CSE 1106)</li>
+        <li><strong>Introduction to Computers & Programming</strong> - University of Texas at Arlington (CSE 1310)</li>
+        <li><strong>Intermediate Programming</strong> - University of Texas at Arlington (CSE 1320)</li>
+        <li><strong>Object Oriented Programming (Java and C++)</strong> - University of Texas at Arlington (CSE 1325) [CURRENTLY]</li>
+        <li><strong>Computer Organization & Assembly Language</strong> - University of Texas at Arlington (CSE 2312) [CURRENTLY]</li>
     </ul>
 </div>
 

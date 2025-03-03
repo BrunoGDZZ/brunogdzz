@@ -10,6 +10,11 @@ favicon: /assets/images/icons8-tech-16.ico
 # Customize appearance (optional)
 show_downloads: false
 
+github:
+  is_project_page: false
+
+footer_links: []  # Removes default footer links from the theme
+
 plugins:
   - jekyll-seo-tag
 

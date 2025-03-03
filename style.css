@@ -7,6 +7,15 @@ body {
     padding: 0;
 }
 
+/* Center the top title */
+h1 {
+    text-align: center; /* Center the text horizontally */
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
 /* Sidebar styles */
 .sidebar {
     height: 100%;
@@ -79,20 +88,17 @@ body {
     display: block;
 }
 
-h1, h2 {
-    color: #ffffff;
-    margin-top: 20px;
-    font-weight: 600;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.8;
-    color: #cccccc;
-}
-
 h2 {
+    color: #ffffff;
+    font-weight: 600;
     font-size: 28px;
+}
+
+/* Project Date Field */
+.project-date {
+    font-size: 14px;
+    color: #888888;
+    margin-bottom: 10px;
 }
 
 /* Hamburger Button */
@@ -185,6 +191,11 @@ footer a {
 footer a:hover {
     color: #FF4500;
     text-decoration: underline;
+}
+
+/* Contact Section */
+#contact p a {
+    color: #FF6347;
 }
 
 /* Responsive */

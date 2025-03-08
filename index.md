@@ -47,6 +47,13 @@ layout: default
             <p class="project-date">Date: March 2 2025</p>
             <a href="https://github.com/BrunoGDZZ/brunogdzz" target="_blank">View Website</a>
         </div>
+        <div class="project">
+            <h3>abUTA</h3>
+            <p>Developed a text-based social media system with threaded public posts, private messaging to users, account muting, and blocking. White Implementing key                 object-oriented programming concepts using Java.
+            [IN PROGRESS] </p>
+            <p class="project-date">Date: March 4 2025</p>
+            <a href="https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/abUTA/baseline" target="_blank">View Project</a>
+        </div>
     </div>
 </div>
 

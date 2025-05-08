@@ -25,8 +25,8 @@ layout: default
 
 <!-- About Section -->
 <div id="about" class="tab-content active">
-    <img src="IMG_0615.jpg" alt="Bruno Garbuio De Souza" width="200" 
-         style="border-radius: 50%; display: block; margin: 20px auto;">
+   <img src="IMG_0615.jpg" alt="Bruno Garbuio De Souza" width="200" height="200"
+     style="display: block; margin: 20px auto; object-fit: cover;">
     <h2>About Me</h2>
     <p>I'm a Computer Science student at UTA who is genuinely excited about tackling new coding challenges and learning from experienced professionals in real-world environments. I'm looking for an opportunity to contribute my growing skills and be part of a team that's building innovative technology. This is my portfolio where I will be uploading side projects of mine and ideas I've been working on. </p>
 </div>

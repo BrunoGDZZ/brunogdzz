@@ -219,3 +219,15 @@ footer a:hover {
         padding: 10px;
     }
 }
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px; /* Slightly rounded corners, remove if you want sharp edges */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Optional shadow */
+}
+

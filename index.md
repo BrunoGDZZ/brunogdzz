@@ -76,8 +76,8 @@ layout: default
     <li><strong>Introduction to Computer Science & Engineering</strong> – UTA (CSE 1106)</li>
     <li><strong>Introduction to Computers & Programming</strong> – UTA (CSE 1310)</li>
     <li><strong>Intermediate Programming</strong> – UTA (CSE 1320)</li>
-    <li><strong>Object-Oriented Programming (Java & C++)</strong> – UTA (CSE 1325) <em>[Currently]</em></li>
-    <li><strong>Computer Organization & Assembly Language</strong> – UTA (CSE 2312) <em>[Currently]</em></li>
+    <li><strong>Object-Oriented Programming (Java & C++)</strong> – UTA (CSE 1325) <em></em></li>
+    <li><strong>Computer Organization & Assembly Language</strong> – UTA (CSE 2312) <em></em></li>
   </ul>
 </div>
 

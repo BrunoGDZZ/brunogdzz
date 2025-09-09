@@ -24,7 +24,7 @@ layout: default
   <img src="IMG_0615.jpg" alt="Portrait of Bruno Garbuio De Souza" class="profile-img">
   <h2>About Me</h2>
   <p>
-    I’m a Computer Science student at the University of Texas at Arlington, passionate about solving coding challenges and applying my skills to real-world projects. I’m a member of the Association for Computing Machinery (ACM)[cite: 40].
+    I’m a Computer Science student at the University of Texas at Arlington, passionate about solving coding challenges and applying my skills to real-world projects. 
     I’m eager to contribute, learn from experienced professionals, and grow as part of a team that builds innovative technology. 
     This portfolio showcases my side projects, coursework, and ongoing learning journey.
   </p>
@@ -36,7 +36,7 @@ layout: default
     <div class="project">
       <h3>Robots Recreation</h3>
       <p>
-        Recreated the classic <em>Robots</em> game using Java OOP principles with a Swing-based UI for the desktop version[cite: 44].
+        Recreated the classic <em>Robots</em> game using Java OOP principles with a Swing-based UI for the desktop version.
         <strong>[In Progress]</strong>
       </p>
       <p class="project-date">Date: February 20, 2025</p>
@@ -54,8 +54,8 @@ layout: default
     <div class="project">
       <h3>abUTA</h3>
       <p>
-        Built a text-based social media system featuring threaded public posts, private messaging, muting, and account blocking[cite: 46]. 
-        Implemented with core object-oriented programming concepts in Java[cite: 47]. 
+        Built a text-based social media system featuring threaded public posts, private messaging, muting, and account blocking. 
+        Implemented with core object-oriented programming concepts in Java. 
         <strong>[In Progress]</strong>
       </p>
       <p class="project-date">Date: March 4, 2025</p>

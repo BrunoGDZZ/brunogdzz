@@ -7,12 +7,9 @@ layout: default
 
 <h1>Bruno Garbuio De Souza | UTA Computer Science INT 2027</h1>
 
-<!-- Hamburger Menu Button -->
 <button class="menu-btn" onclick="openNav()">
-    &#9776; <!-- Hamburger icon (☰) -->
-</button>
+    &#9776; </button>
 
-<!-- Sidebar -->
 <div id="mySidebar" class="sidebar">
     <button class="closebtn" onclick="closeNav()">&times;</button>
     <ul class="tabs">
@@ -23,25 +20,23 @@ layout: default
     </ul>
 </div>
 
-<!-- About Section -->
 <div id="about" class="tab-content active">
   <img src="IMG_0615.jpg" alt="Portrait of Bruno Garbuio De Souza" class="profile-img">
   <h2>About Me</h2>
   <p>
-    I’m a Computer Science student at the University of Texas at Arlington, passionate about solving coding challenges and applying my skills to real-world projects. 
+    I’m a Computer Science student at the University of Texas at Arlington, passionate about solving coding challenges and applying my skills to real-world projects. I’m a member of the Association for Computing Machinery (ACM)[cite: 40].
     I’m eager to contribute, learn from experienced professionals, and grow as part of a team that builds innovative technology. 
     This portfolio showcases my side projects, coursework, and ongoing learning journey.
   </p>
 </div>
 
-<!-- Projects Section -->
 <div id="projects" class="tab-content">
   <h2>Projects</h2>
   <div class="projects-container">
     <div class="project">
       <h3>Robots Recreation</h3>
       <p>
-        Recreated the classic <em>Robots</em> game using Java OOP principles, later extending it with SwiftUI for cross-platform design. 
+        Recreated the classic <em>Robots</em> game using Java OOP principles with a Swing-based UI for the desktop version[cite: 44].
         <strong>[In Progress]</strong>
       </p>
       <p class="project-date">Date: February 20, 2025</p>
@@ -59,8 +54,8 @@ layout: default
     <div class="project">
       <h3>abUTA</h3>
       <p>
-        Built a text-based social media system featuring threaded public posts, private messaging, muting, and account blocking. 
-        Implemented with core object-oriented programming concepts in Java. 
+        Built a text-based social media system featuring threaded public posts, private messaging, muting, and account blocking[cite: 46]. 
+        Implemented with core object-oriented programming concepts in Java[cite: 47]. 
         <strong>[In Progress]</strong>
       </p>
       <p class="project-date">Date: March 4, 2025</p>
@@ -69,7 +64,6 @@ layout: default
   </div>
 </div>
 
-<!-- Coursework Section -->
 <div id="coursework" class="tab-content">
   <h2>Relevant Coursework</h2>
   <ul>
@@ -81,7 +75,6 @@ layout: default
   </ul>
 </div>
 
-<!-- Contact Section -->
 <div id="contact" class="tab-content">
   <h2>Contact Me</h2>
   <p><strong>Email:</strong> <a href="mailto:23bdesouza@gmail.com">23bdesouza@gmail.com</a></p>

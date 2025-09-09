@@ -11,7 +11,7 @@ Highly motivated and results-oriented undergraduate Computer Science student see
 
 
 ## Skills & Technologies
-- **Programming Languages**: C, C++ [IN PROGRESS], Java[IN PROGRESS], Assembly[IN PROGRESS]
+- **Programming Languages**: C, C++, Java, Assembly
 - **Data Structures & Algorithms**: Linked Lists, Stacks, Queues, Trees, Graphs
 - **Software Development**: Object-Oriented Programming, Agile Methodologies, Jira Software
 - **Version Control**: Git, GitHub
@@ -19,9 +19,11 @@ Highly motivated and results-oriented undergraduate Computer Science student see
 
 ## Projects
 ### [Robots Game Recreation with Swing](https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/RobotsGame)
-**Description**: Recreated the old Robots game both text based and implemented Swing for a sort of UI.  
-- Implemented Swing UI  
+**Description**: Recreated the old Robots game both text-based and implemented Swing for a sort of UI.
+- Implemented Swing UI
 
+### [abUTA - A Command-Line Social Media System](https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/abUTA/baseline)
+[cite_start]**Description**: Developed a text-based social media system with threaded public posts, private messaging to users, account muting, and blocking[cite: 46]. [cite_start]Implemented key object-oriented programming concepts using Java[cite: 47].
 
 ## Education
 ### Computer Science Student - University of Texas at Arlington *(August 2023 – Present)*
@@ -33,10 +35,7 @@ Highly motivated and results-oriented undergraduate Computer Science student see
 - Currently Enrolled in:
   -   CSE 1325 OBJECT-ORIENTED PROGRAMMING
   -   CSE 2312 CMPTR ORG & ASSEMBLY LANG PROG 
-- Completed Freshman year with a 3.4 GPA
 - Relevant Coursework: Data Structures, Algorithms, Software Engineering, Operating Systems  
-
-
 
 ## Contact
 - **Email**: 23bdesouza@gmail.com

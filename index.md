@@ -92,8 +92,6 @@ title: Bruno De Souza | Computer Science Student
         <li>Git & GitHub</li>
         <li>Android Studio</li>
         <li>Java Swing</li>
-        <li>Object Oriented Programming</li>
-        <li>Agile Software Developlment</li>
       </ul>
     </div>
 
@@ -104,6 +102,7 @@ title: Bruno De Souza | Computer Science Student
         <li>Data Structures</li>
         <li>Algorithms</li>
         <li>Version Control</li>
+        <li>Agile Software Developlment</li>
       </ul>
     </div>
   </div>

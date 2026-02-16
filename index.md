@@ -3,13 +3,25 @@ layout: default
 title: Bruno De Souza | Computer Science Student
 ---
 
-<section class="hero" id="about">
-  <h1>Hi, I’m Bruno</h1>
-  <p>
-    Computer Science student at the University of Texas at Arlington (Class of 2027),
-    focused on software engineering and building practical, well-structured applications.
-  </p>
+<section class="hero hero-split" id="about">
+  <div class="hero-text">
+    <h1>Hi, I’m Bruno 👋</h1>
+    <p>
+      Computer Science student at the University of Texas at Arlington (Class of 2027),
+      focused on software engineering and building practical, well-structured applications.
+    </p>
+
+    <div class="hero-links">
+      <a href="https://github.com/brunogdzz" target="_blank">GitHub</a>
+      <a href="resume.pdf" target="_blank">Résumé</a>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <img src="IMG_0615.jpg" alt="Portrait of Bruno Garbuio De Souza">
+  </div>
 </section>
+
 
 <section id="projects">
   <h2>Projects</h2>

@@ -205,6 +205,41 @@ li {
 }
 
 /* ======================
+   Skills
+====================== */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+}
+
+.skill-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+}
+
+.skill-card h3 {
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.skill-card ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.skill-card li {
+    font-size: 14px;
+    color: var(--muted);
+    margin-bottom: 8px;
+}
+
+
+/* ======================
    Coursework
 ====================== */
 #coursework ul {

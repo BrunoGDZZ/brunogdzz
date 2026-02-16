@@ -70,6 +70,46 @@ title: Bruno De Souza | Computer Science Student
   </div>
 </section>
 
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h3>Languages</h3>
+      <ul>
+        <li>Java</li>
+        <li>Kotlin</li>
+        <li>C/C++</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Frameworks & Tools</h3>
+      <ul>
+        <li>Jekyll</li>
+        <li>Git & GitHub</li>
+        <li>Android Studio</li>
+        <li>Java Swing</li>
+        <li>Object Oriented Programming</li>
+        <li>Agile Software Developlment</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Concepts</h3>
+      <ul>
+        <li>Object-Oriented Programming</li>
+        <li>Data Structures</li>
+        <li>Algorithms</li>
+        <li>Version Control</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
 <section id="coursework">
   <h2>Relevant Coursework</h2>
   <ul>

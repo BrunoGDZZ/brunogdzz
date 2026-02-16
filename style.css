@@ -1,233 +1,173 @@
-/* Basic page styling */
+/* ======================
+   Design System
+====================== */
+:root {
+    --bg: #0b0f19;
+    --surface: #111827;
+    --card: #1f2933;
+    --text: #e5e7eb;
+    --muted: #9ca3af;
+    --accent: #38bdf8;
+    --border: #2b3442;
+}
+
+/* ======================
+   Base Styles
+====================== */
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
-    background: #000000; /* Set the background to black */
-    color: #ffffff;
     margin: 0;
-    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
 }
 
-/* Center the top title */
-h1 {
-    text-align: center; /* Center the text horizontally */
-    font-size: 36px;
-    color: #ffffff;
-    font-weight: 600;
-    margin-top: 50px;
-}
-
-/* Sidebar styles */
-.sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111; /* Dark sidebar */
-    overflow-x: hidden;
-    transition: 0.4s;
-    padding-top: 50px;
-    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.7);
-}
-
-.sidebar .closebtn {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    font-size: 36px;
-    color: #fff;
-    background: none;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.sidebar .closebtn:hover {
-    color: #FF6347;
-}
-
-.sidebar .tabs {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.sidebar .tabs a {
-    padding: 12px 20px;
+a {
+    color: var(--accent);
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ======================
+   Layout
+====================== */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* ======================
+   Header / Nav
+====================== */
+.site-header {
+    background: rgba(11, 15, 25, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 600;
     font-size: 18px;
-    color: #ffffff;
-    display: block;
-    transition: 0.3s;
-    border-bottom: 1px solid #444;
 }
 
-.sidebar .tabs a:hover, .sidebar .tabs a.active {
-    background-color: #FF4500;
-    box-shadow: 2px 0 10px rgba(255, 69, 0, 0.8);
+.nav-links a {
+    margin-left: 20px;
+    font-size: 14px;
+    color: var(--muted);
 }
 
-/* Main content */
-.main-content {
-    margin-left: 0;
-    padding: 20px;
-    transition: margin-left 0.4s;
+.nav-links a:hover {
+    color: var(--text);
 }
 
-/* Tab content styles */
-.tab-content {
-    display: none;
-    padding: 30px;
-    background: #222222;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-.tab-content.active {
-    display: block;
+/* ======================
+   Typography
+====================== */
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
 }
 
 h2 {
-    color: #ffffff;
-    font-weight: 600;
     font-size: 28px;
+    margin-bottom: 20px;
 }
 
-/* Project Date Field */
-.project-date {
-    font-size: 14px;
-    color: #888888;
-    margin-bottom: 10px;
+p {
+    color: var(--muted);
+    font-size: 16px;
 }
 
-/* Hamburger Button */
-.menu-btn {
-    font-size: 40px;
-    background: none;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    padding: 10px;
-    margin: 0;
-    display: inline-block;
-    transition: color 0.3s ease;
+/* ======================
+   Hero
+====================== */
+.hero {
+    text-align: center;
+    margin-bottom: 80px;
 }
 
-.menu-btn:hover {
-    color: #FF6347;
+.hero p {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-/* Projects Section - Grid Layout */
+/* ======================
+   Projects
+====================== */
 .projects-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
 }
 
-/* Individual Project Card */
 .project {
-    background: #111;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 4px 10px rgba(255, 99, 71, 0.2);
-    width: 100%;
-    max-width: 350px;
-    transition: transform 0.3s, box-shadow 0.3s;
-    text-align: center;
+    background: var(--card);
+    border-radius: 14px;
+    padding: 24px;
+    border: 1px solid var(--border);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 4px 15px rgba(255, 99, 71, 0.5);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 .project h3 {
-    color: #FF6347;
-    font-size: 22px;
-    margin-bottom: 10px;
+    margin-top: 0;
+    color: var(--text);
 }
 
 .project p {
-    font-size: 16px;
-    color: #cccccc;
-    line-height: 1.6;
+    font-size: 15px;
 }
 
 .project a {
     display: inline-block;
-    margin-top: 10px;
-    padding: 8px 15px;
-    background: #FF4500;
-    color: white;
+    margin-top: 12px;
     font-size: 14px;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: background 0.3s;
 }
 
-.project a:hover {
-    background: #FF6347;
-}
-
-/* Footer */
-footer {
-    margin-top: 30px;
+/* ======================
+   Footer
+====================== */
+.site-footer {
+    border-top: 1px solid var(--border);
     padding: 20px;
-    background: #111;
-    color: #ffffff;
     text-align: center;
-    font-size: 14px;
-    border-top: 1px solid #444;
+    font-size: 13px;
+    color: var(--muted);
 }
 
-footer a {
-    color: #FF6347;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #FF4500;
-    text-decoration: underline;
-}
-
-/* Contact Section */
-#contact p a {
-    color: #FF6347;
-}
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-    .sidebar {
-        width: 100%;
-        height: auto;
+/* ======================
+   Responsive
+====================== */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 32px;
     }
 
-    .tabs {
-        flex-direction: column;
-    }
-
-    #main {
-        margin-left: 0;
-        padding: 10px;
-    }
-
-    footer {
-        font-size: 12px;
-        padding: 10px;
+    .nav-links {
+        display: none;
     }
 }
-
-.profile-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    object-position: top;
-    display: block;
-    margin: 20px auto;
-    border-radius: 8px; /* Slightly rounded corners, remove if you want sharp edges */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Optional shadow */
-}
-

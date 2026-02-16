@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}" />
     <script src="{{ '/script.js' | relative_url }}" defer></script>
 </head>
+
 <body>
+    <header class="site-header">
+        <nav class="nav">
+            <span class="logo">Bruno De Souza</span>
+            <div class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-    <div id="main">
+    <main class="container">
         {{ content }}
-    </div>
+    </main>
 
-    <footer>
-        <p>&copy; 2025 Bruno Garbuio De Souza. All rights reserved.</p>
+    <footer class="site-footer">
+        <p>&copy; 2026 Bruno Garbuio De Souza</p>
     </footer>
-
 </body>
 </html>

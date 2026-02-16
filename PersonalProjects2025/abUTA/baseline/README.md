@@ -12,5 +12,3 @@ This is the approach required for this course.
 
 HINT: Use ``ant javadoc`` in this directory to build complete reference documentation for the ``menu`` package. You'll find it under docs/api/index.html.
 
-https://github.com/prof-rice/cse1325-prof/10-java-user-interfaces/code_from_slides/ provides many constrasting implementations of menus for the more adventurous student: A class C-like hard-coded menu with a switch, the use of the attomenu package, both a classic command-line option and more modern picocli package command-line implementation, and of course a Swing graphical user interface version.
-

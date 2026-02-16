@@ -14,6 +14,7 @@ title: Bruno De Souza | Computer Science Student
     <div class="hero-links">
       <a href="https://github.com/brunogdzz" target="_blank">GitHub</a>
       <a href="resume.pdf" target="_blank">Résumé</a>
+      <a href="https://www.linkedin.com/in/bruno-garbuio-de-souza/" target="_black>LinkedIn</a>
       
     </div>
   </div>

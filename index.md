@@ -4,7 +4,7 @@ title: Bruno De Souza | Computer Science Student
 ---
 
 <section class="hero" id="about">
-  <h1>Hi, I’m Bruno 👋</h1>
+  <h1>Hi, I’m Bruno</h1>
   <p>
     Computer Science student at the University of Texas at Arlington (Class of 2027),
     focused on software engineering and building practical, well-structured applications.

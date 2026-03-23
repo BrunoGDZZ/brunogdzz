@@ -19,7 +19,7 @@ title: Bruno De Souza | Computer Science Student
   </div>
 
   <div class="hero-image">
-    <img src="IMG_0615.jpg" alt="Portrait of Bruno Garbuio De Souza">
+    <img src="bxg7293@mavs.uta.edu-9980c5d4.jpg" alt="Portrait of Bruno Garbuio De Souza">
   </div>
 </section>
 

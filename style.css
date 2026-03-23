@@ -163,7 +163,7 @@ li {
 /* Profile Image */
 .hero-image img {
     width: 260px;
-    height: 260px;
+    height: 320px;
     object-fit: cover;
     object-position: top;
     border-radius: 14px;

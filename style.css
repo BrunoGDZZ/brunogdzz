@@ -312,9 +312,9 @@ li {
 
 .project-page-image {
     width: 100%;
-    max-width: 720px;
+    max-width: 500px;   /* Resizes it and makes it acceptable */
     display: block;
-    margin: 24px 0;
+    margin: 24px auto;  /* Center the image */
     border-radius: 14px;
     border: 1px solid var(--border);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);

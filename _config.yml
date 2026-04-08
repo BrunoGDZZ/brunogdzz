@@ -18,6 +18,9 @@ footer_links: []  # Removes default footer links from the theme
 plugins:
   - jekyll-seo-tag
 
+url: "https://brunogdzz.github.io"
+baseurl: "/brunogdzz"
+
 
 # Author Information
 author:

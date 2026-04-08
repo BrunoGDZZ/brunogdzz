@@ -5,7 +5,7 @@ permalink: /projects/portfolio-website/
 ---
 
 <section class="project-page">
-  <p><a href="/">← Back to Home</a></p>
+  <a class="back-link" href="{{ site.baseurl }}/">← Back to Home</a>
 
   <h1>Portfolio Website</h1>
 

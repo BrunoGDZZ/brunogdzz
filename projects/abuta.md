@@ -5,7 +5,7 @@ permalink: /projects/abuta/
 ---
 
 <section class="project-page">
-  <a class="back-link" href="{{ site.baseurl }}/">← Back to Home</a>
+  <a class="back-link" href="{{ site.baseurl }}/index.html">← Back to Home</a>
 
   <h1>abUTA</h1>
 

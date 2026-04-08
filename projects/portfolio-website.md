@@ -9,7 +9,7 @@ permalink: /projects/portfolio-website/
 
   <h1>Portfolio Website</h1>
 
-  <img src="/assets/images/portfolio-website.png" alt="Screenshot of portfolio website" class="project-page-image">
+  <img src="{{ '/assets/images/portfolio-website.png' | relative_url }}" alt="Screenshot of portfolio website" class="project-page-image">
 
   <p class="project-page-intro">
     A personal portfolio website built with Jekyll and GitHub Pages to showcase my work,

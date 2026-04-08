@@ -9,7 +9,7 @@ permalink: /projects/robots-recreation/
 
   <h1>Robots Recreation</h1>
 
-  <img src="/assets/images/robots-recreation.png" alt="Screenshot of Robots Recreation project" class="project-page-image">
+  <img src="{{ '/assets/images/robots-recreation.png' | relative_url }}" alt="Screenshot of portfolio website" class="project-page-image">
 
   <p class="project-page-intro">
     A Java desktop recreation of the classic <em>Robots</em> game built with Java Swing.

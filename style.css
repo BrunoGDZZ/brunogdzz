@@ -18,6 +18,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -27,9 +31,15 @@ body {
     line-height: 1.6;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 a {
     color: var(--accent);
     text-decoration: none;
+    transition: color 0.2s ease, opacity 0.2s ease;
 }
 
 a:hover {
@@ -68,26 +78,45 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .logo {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
+    color: var(--text);
+    letter-spacing: 0.2px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .nav-links a {
     margin-left: 24px;
     font-size: 14px;
     color: var(--muted);
+    transition: color 0.2s ease;
 }
 
 .nav-links a:hover {
     color: var(--text);
+    text-decoration: none;
 }
 
 /* ======================
    Typography
 ====================== */
+h1,
+h2,
+h3,
+h4 {
+    color: var(--text);
+    line-height: 1.2;
+}
+
 h1 {
     font-size: 42px;
     margin: 0 0 12px;
@@ -101,11 +130,13 @@ h2 {
 h3 {
     font-size: 20px;
     margin-top: 0;
+    margin-bottom: 12px;
 }
 
 p {
     font-size: 16px;
     color: var(--muted);
+    margin-top: 0;
 }
 
 ul {
@@ -114,6 +145,7 @@ ul {
 
 li {
     margin-bottom: 10px;
+    color: var(--muted);
 }
 
 /* ======================
@@ -136,18 +168,22 @@ li {
 
 .hero-text p {
     max-width: 560px;
+    font-size: 17px;
 }
 
 .hero-links {
     margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
 }
 
 .hero-links a {
     display: inline-block;
-    margin-right: 16px;
     padding: 10px 18px;
     border-radius: 8px;
-    border: 5px solid var(--border);
+    border: 1px solid var(--border);
+    background: transparent;
     color: var(--text);
     font-size: 14px;
     transition: background 0.2s ease, border-color 0.2s ease,
@@ -158,19 +194,24 @@ li {
     background: var(--card);
     border-color: var(--accent);
     transform: translateY(-1px);
+    text-decoration: none;
 }
 
 /* Profile Image */
+.hero-image {
+    display: flex;
+    justify-content: center;
+}
+
 .hero-image img {
     width: 260px;
     height: 320px;
     object-fit: cover;
     object-position: top;
     border-radius: 14px;
-    border: 4px solid #ffffff; 
+    border: 4px solid #ffffff;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
     filter: grayscale(10%) contrast(1.05);
-}
 }
 
 /* ======================
@@ -187,22 +228,26 @@ li {
     padding: 24px;
     border-radius: 16px;
     border: 1px solid var(--border);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease,
+        border-color 0.2s ease;
 }
 
 .project:hover {
     transform: translateY(-4px);
     box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+    border-color: var(--accent);
 }
 
 .project p {
     font-size: 15px;
+    margin-bottom: 12px;
 }
 
 .project a {
     display: inline-block;
     margin-top: 14px;
     font-size: 14px;
+    font-weight: 600;
 }
 
 /* ======================
@@ -239,7 +284,6 @@ li {
     margin-bottom: 8px;
 }
 
-
 /* ======================
    Coursework
 ====================== */
@@ -252,6 +296,58 @@ li {
 ====================== */
 #contact p {
     margin-bottom: 10px;
+}
+
+/* ======================
+   Project Detail Pages
+====================== */
+.project-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project-page h1 {
+    margin-bottom: 20px;
+}
+
+.project-page-image {
+    width: 100%;
+    max-width: 720px;
+    display: block;
+    margin: 24px 0;
+    border-radius: 14px;
+    border: 1px solid var(--border);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.project-page-intro {
+    font-size: 18px;
+    color: var(--text);
+    margin-bottom: 28px;
+}
+
+.project-page-section {
+    margin-bottom: 36px;
+    padding: 24px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+}
+
+.project-page-section h2 {
+    margin-top: 0;
+    margin-bottom: 14px;
+    font-size: 22px;
+}
+
+.project-page-section ul {
+    margin-bottom: 0;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
 /* ======================
@@ -273,13 +369,22 @@ li {
         font-size: 32px;
     }
 
+    h2 {
+        font-size: 24px;
+    }
+
     section {
         margin-bottom: 72px;
+    }
+
+    .container {
+        padding: 32px 16px;
     }
 
     .hero-split {
         grid-template-columns: 1fr;
         text-align: center;
+        gap: 32px;
     }
 
     .hero-text {
@@ -290,11 +395,54 @@ li {
         margin: 0 auto;
     }
 
+    .hero-links {
+        justify-content: center;
+    }
+
     .hero-image img {
         margin: 0 auto;
+        width: 220px;
+        height: 280px;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .nav-links {
-        display: none;
+        width: 100%;
+        gap: 12px;
+    }
+
+    .nav-links a {
+        margin-left: 0;
+        margin-right: 16px;
+    }
+
+    .project-page-section {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    p,
+    li {
+        font-size: 15px;
+    }
+
+    .project,
+    .skill-card,
+    .project-page-section {
+        padding: 18px;
+    }
+
+    .hero-links a {
+        width: 100%;
+        text-align: center;
     }
 }

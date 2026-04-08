@@ -37,7 +37,7 @@ title: Bruno De Souza | Computer Science Student
         and game logic.
       </p>
       <p><strong>Status:</strong> In Progress</p>
-      <a href="/projects/robots-recreation/">View Project →</a>
+      <a href="{{ '/projects/robots-recreation/' | relative_url }}">View Project →</a>
     </div>
 
     <div class="project">
@@ -47,7 +47,7 @@ title: Bruno De Souza | Computer Science Student
         Focused on clean layout, responsive design, and maintainable structure.
       </p>
       <p><strong>Status:</strong> In Progress</p>
-      <a href="/projects/portfolio-website/">View Project →</a>
+      <a href="{{ '/projects/portfolio-website/' | relative_url }}">View Project →</a>
     </div>
 
     <div class="project">
@@ -58,11 +58,12 @@ title: Bruno De Souza | Computer Science Student
         programming and data modeling.
       </p>
       <p><strong>Status:</strong> In Progress</p>
-      <a href="/projects/abuta/">View Project →</a>
+      <a href="{{ '/projects/abuta/' | relative_url }}">View Project →</a>
     </div>
 
   </div>
 </section>
+
 <section id="skills">
   <h2>Skills</h2>
 

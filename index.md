@@ -61,6 +61,16 @@ title: Bruno De Souza | Computer Science Student
       <a href="{{ '/projects/abuta/' | relative_url }}">View Project →</a>
     </div>
 
+<div class="project">
+      <h3>Auction 6</h3>
+      <p>
+        Created an Auction house like system on Android Studio based off of Kotlin and SQLite Database. Includes betting logic, administration login, posting
+        with file uploads and was coded in an Agile like structure.
+      </p>
+      <p><strong>Status:</strong> COMPLETE</p>
+      <a href="{{ '/projects/Auction6/' | relative_url }}">View Project →</a>
+    </div>
+
   </div>
 </section>
 

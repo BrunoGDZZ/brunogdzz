@@ -68,7 +68,7 @@ title: Bruno De Souza | Computer Science Student
         with file uploads and was coded in an Agile like structure.
       </p>
       <p><strong>Status:</strong> COMPLETE</p>
-      <a href="{{ '/projects/Auction6/' | relative_url }}">View Project →</a>
+      <a href="{{ '/projects/auction6/' | relative_url }}">View Project →</a>
     </div>
 
   </div>

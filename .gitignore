@@ -35,3 +35,12 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Local preview, browser verification artifacts, and retired Jekyll output
+.preview/
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+Microsoft/

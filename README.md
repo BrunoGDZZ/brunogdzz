@@ -1,42 +1,61 @@
-# Bruno Garbuio De Souza
+# Bruno De Souza — Portfolio
 
-## Portfolio & Github Personal Repository
+A personal portfolio featuring Android, Java, and web projects, with individual case studies, responsive layouts, light and dark themes, and a small rhythm game.
 
-Welcome to my GitHub Portfolio! Here, you'll find my projects, skills, and experience in software development.
+## Preview locally — no push required
 
-## About Me
-Aspiring Software Engineer | Computer Science Student at The University of Texas at Arlington | Graduating by May 2027
+Open PowerShell in this folder and run:
 
-Highly motivated and results-oriented undergraduate Computer Science student seeking challenging opportunities. Driven and inquisitive  student with a strong desire to learn and grow within a professional environment, eager to contribute and add value  to an organization building a successful career in the technology industry.
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\preview.ps1
+```
 
+The script opens **http://localhost:4000/** in your default browser. Keep the terminal running. Edit a file, save it, and refresh the browser to see the change. Press **Ctrl+C** in the terminal when you are finished.
 
-## Skills & Technologies
-- **Programming Languages**: C, C++, Java, Assembly
-- **Data Structures & Algorithms**: Linked Lists, Stacks, Queues, Trees, Graphs
-- **Software Development**: Object-Oriented Programming, Agile Methodologies, Jira Software
-- **Version Control**: Git, GitHub
-- **Databases**: [LEARNING]
+The execution-policy option applies only to this process; it does not change your machine's policy. The server listens only on your computer's loopback address. It does not publish the site or contact GitHub.
 
-## Projects
-### [Robots Game Recreation with Swing](https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/RobotsGame)
-**Description**: Recreated the old Robots game both text-based and implemented Swing for a sort of UI.
-- Implemented Swing UI
+If port 4000 is already in use:
 
-### [abUTA - A Command-Line Social Media System](https://github.com/BrunoGDZZ/brunogdzz/tree/main/PersonalProjects2025/abUTA/baseline)
-[cite_start]**Description**: Developed a text-based social media system with threaded public posts, private messaging to users, account muting, and blocking[cite: 46]. [cite_start]Implemented key object-oriented programming concepts using Java[cite: 47].
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\preview.ps1 -Port 4001
+```
 
-## Education
-### Computer Science Student - University of Texas at Arlington *(August 2023 – Present)*
-- Currently studying Computer Science 
-- Successfully completed:
-  -   CSE 1310 INTRO COMPUTERS & PROGRAMMING
-  -   CSE 1106 INTRO TO COMP SCI & ENGR
-  -   CSE 1320 INTERMEDIATE PROGRAMMING 
-- Currently Enrolled in:
-  -   CSE 1325 OBJECT-ORIENTED PROGRAMMING
-  -   CSE 2312 CMPTR ORG & ASSEMBLY LANG PROG 
-- Relevant Coursework: Data Structures, Algorithms, Software Engineering, Operating Systems  
+Use `-NoBrowser` if you want to open the preview URL yourself. No administrator access, Ruby, Bundler, Node, or dependency installation is needed. Use the server for previewing so project directory links resolve correctly.
+
+## Files to edit
+
+| File | Purpose |
+| --- | --- |
+| `index.html` | Homepage content, project cards, education, skills, and contact links |
+| `style.css` | Shared layout, colors, themes, responsive styles, and game appearance |
+| `script.js` | Theme preference, project filters, mobile navigation, email copying, and active sections |
+| `projects/*/index.html` | Individual project case studies |
+| `assets/game/game.js` | Canvas rhythm game, keyboard and touch controls, optional audio, and local best score |
+| `assets/images/` | Project images, optimized portrait, and SVG monogram/favicon |
+| `resume.pdf` | Downloadable résumé |
+| `404.html` | Self-contained missing-page screen |
+| `preview.ps1` | Windows local preview server |
+
+The content is ordinary HTML and works without JavaScript. JavaScript enhances filtering, navigation, theme switching, copying the email address, and the game. The expanded coursework uses the browser's native details element.
+
+## Hosting and dependencies
+
+The site is plain **HTML, CSS, and JavaScript**. GitHub Pages can serve the files directly; `.nojekyll` disables Jekyll processing. There is no build step or package installation, and no external fonts, analytics, or runtime services.
+
+Relative links support both the domain root and the existing `/brunogdzz/` repository path. The preview server supports that prefix too: `http://localhost:4000/brunogdzz/`.
+
+This replaces the older Jekyll version. The unused Gemfiles, theme configuration, layouts, and GitHub Skills tutorial workflows have been retired. `PersonalProjects2025/` contains the original project source and is independent of the portfolio frontend. The existing `_site/` folder is legacy generated output and is no longer used; it is excluded from the local preview. Local preview artifacts are ignored under `.preview/`.
+
+Previewing and editing never push changes. Review the site locally before committing or publishing.
+
+## Interaction notes
+
+- Theme and game best-score preferences are stored locally in the visitor's browser. The site continues to work when storage is unavailable.
+- The rhythm game starts only when requested. Use **A / S / D / F**, tap the canvas, or press the four lane buttons. Sound is off by default. Closing the dialog or switching browser tabs pauses the round.
+- Keyboard focus stays within the game dialog; Escape closes it and returns focus to the launcher.
+- The copy-email button uses the Clipboard API on localhost or HTTPS, with a helpful message when copying is unavailable.
+- Reduced-motion preferences disable smooth scrolling and decorative transitions.
 
 ## Contact
-- **Email**: 23bdesouza@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/bruno-garbuio-de-souza-48610524a/)
+
+[GitHub](https://github.com/brunogdzz) · [LinkedIn](https://www.linkedin.com/in/bruno-garbuio-de-souza-48610524a/) · [Email](mailto:23bdesouza@gmail.com)
